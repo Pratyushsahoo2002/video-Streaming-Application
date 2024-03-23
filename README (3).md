@@ -3,14 +3,27 @@ Example of Video Streaming via HTTP 206 Partial Content to a Video Player
 
 - Server: 
   1. Spring Boot
-  2. HTTP 206 implementation from: https://github.com/davinkevin/Podcast-Server/blob/d927d9b8cb9ea1268af74316cd20b7192ca92da7/src/main/java/lan/dk/podcastserver/utils/multipart/MultipartFileSender.java
+  2. HTTP 206 implementation from:https://github.com/Pratyushsahoo2002/video-Streaming-Application/edit/main/README%20(3).md
 
 - Client: 
-  1. VLCJ (https://github.com/caprica/vlcj)
+  1. VLCJ (https://github.com/Pratyushsahoo2002/video-Streaming-Application/edit/main/README%20(3).md)
   2. Every other video-client (e.g. Google Chrome, ...) is possible.
 
-- Usage: 
-  1. Make sure to edit the Video Path in `de.hoel.video.server.VideoController#getTestVideo` to find an actual example video source.
-  2. Use or do not use the `RateLimiter` feature from `Guava` to simulate a slower network connection. Do that by (un)commenting the lines in `de.hoel.video.server.MultipartFileSender` that use the `RateLimiter`.
-  3. Run `de.hoel.video.server.VideoServerApplication` as Java Program
-  4. Open `http://localhost:8080/videos/test` in a Browser or by starting `de.hoel.video.client.VideoClient`
+Project Details:-
+Aim -
+Develop a video streaming application.
+
+Description:-
+Develop a video streaming site where users can create accounts to upload and
+share their videos. Users can watch videos posted by others. During the uploading
+process, users can manage privacy settings, making videos public or private. Public
+videos are visible to all users, while private videos are restricted to the author. The
+application should also track and display the views count for each video.
+
+Technologies:-Angular, React, Vue.js, Go, Dart, Java, HTML, CSS, JavaScript, PHP, MySQL
+You can use other technologies that you know in web development.
+
+What You Learn:-This project provides a comprehensive understanding of video handling in web
+applications, user account systems, and implementing privacy features. Users will
+gain valuable experience in creating a dynamic and engaging video-sharing
+platform.
